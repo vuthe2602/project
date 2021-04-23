@@ -1,0 +1,869 @@
+
+@media (max-width: 599px){
+    
+}
+@media (min-width: 600px) {
+    
+}
+/* >= Tablet */
+@media (min-width: 740px) {
+    
+}
+
+/* PC medium resolution > */
+@media (min-width: 1113px) {
+    
+}
+@media (max-width: 500px){
+    .wide{
+        width: 100%;
+    }
+    .logo{
+        position: absolute;
+        left: 150px;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .search{
+        position: absolute;
+        top: 20px;
+        left: 350px;
+    }
+    .nav-cart{
+        position: absolute;
+        right: 5px;
+        width: 50px
+    }
+    .nav-cart .text{
+        display: none;
+    }
+    .nav-cart .cart-list{
+        position: absolute;
+        left: -210px;
+    }
+    .account{
+        position: absolute;
+        right: 0px;
+    }
+    .new-pt{
+        display: none;
+    }
+    .slider{
+        width: 100%;
+        height: 250px;
+        object-fit: contain;
+    }
+    .slider .picture{
+        width:100%;
+        height: 250px;
+        object-fit: contain;
+    }
+    .content-slider:hover .btn-auto #prev{
+        display:block;
+        position: absolute;
+        top: -100px;
+        left: 20px;
+    }
+    .content-slider:hover .btn-auto #next{
+        display:block;
+        position: absolute;
+        top: -100px;
+        left: 440px;
+    }
+    .btn-auto ul{
+        position: absolute;
+        display: flex;
+        top: -30px;
+        left: 190px;
+    }
+    .row-banner .col >a{
+        position: relative;
+        left: 190px;
+    }
+    .banner-bg .col{
+        height: 620px;
+    }
+    .banner-bg .col img{
+        width: 100%;
+        height: 664px;
+    }
+    .banner-bg .col >a{
+        position: relative;
+        left: 190px;
+    }
+    .post-title-main{
+        width: 483px;
+        height: 140px;
+    }
+    .section-title-news .title .title-main{
+        width: 250px;
+    }
+    .form{
+        position: absolute;
+        top: 14%;
+        left: 5%;
+        width: 90%;
+    }
+    .navigation{
+        display: block;
+        margin-left: -20px;
+    }
+    .navigation__nav{
+        position: absolute;
+        top: 0px;
+        left: 30px;
+    }
+    .button{
+        position: absolute;
+        top: 5px;
+        left: 35px;
+    }
+}
+@media (min-width: 501px) and (max-width: 600px) {
+    .wide{
+        width: 100%;
+    }
+    .logo{
+        position: absolute;
+        left: 180px;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .search{
+        position: absolute;
+        left: 380px;
+    }
+    .nav-cart{
+        position: absolute;
+        right: 5px;
+        width: 50px
+    }
+    .nav-cart .text{
+        display: none;
+    }
+    .nav-cart .cart-list{
+        position: absolute;
+        left: -210px;
+    }
+    .account{
+        position: absolute;
+        right: 0px;
+    }
+    .new-pt{
+        display: none;
+    }
+    .slider{
+        width: 100%;
+        height: 250px;
+        object-fit: contain;
+    }
+    .slider .picture{
+        width:100%;
+        height: 250px;
+        object-fit: contain;
+    }
+    .content-slider:hover .btn-auto #prev{
+        display:block;
+        position: absolute;
+        top: -100px;
+        left: 28px;
+    }
+    .content-slider:hover .btn-auto #next{
+        display:block;
+        position: absolute;
+        top: -100px;
+        left: 490px;
+    }
+    .btn-auto ul{
+        position: absolute;
+        display: flex;
+        top: -20px;
+        left: 220px;
+    }
+    .banner-bg .col{
+        height: 620px;
+    }
+    .banner-bg .col img{
+        width: 100%;
+        height: 664px;
+    }
+    .banner-bg .col >a{
+        position: relative;
+        left: 240px;
+    }
+    .post-title-main{
+        width: 100%;
+        height: 140px;
+    }
+    .section-title-news .title .title-main{
+        width: 230px;
+    }
+    /* .banner-bg .col img:not(:first-child){
+        margin-top: 600px;
+    } */
+    .form{
+        position: absolute;
+        top: 14%;
+        left: 9%;
+        width: 85%;
+    }
+    .navigation{
+        display: block;
+        margin-left: -20px;
+    }
+    .navigation__nav{
+        position: absolute;
+        top: 0px;
+        left: 50px;
+    }
+    .button{
+        position: absolute;
+        top: 5px;
+        left: 40px;
+    }
+
+}
+@media (min-width: 601px) and (max-width:739px){
+    .wide{
+        width: 590px;
+    }
+    .logo{
+        position: absolute;
+        left: 210px;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .search{
+        position: absolute;
+        left: 400px;
+    }
+    .nav-cart{
+        position: absolute;
+        right: 5px;
+        width: 50px
+    }
+    .nav-cart .text{
+        display: none;
+    }
+    .nav-cart .cart-list{
+        position: absolute;
+        left: -210px;
+    }
+    .account{
+        position: absolute;
+        right: 0px;
+    }
+    .new-pt-2{
+        display: none;
+    }
+    .new-pt-3{
+        display: none;
+    }
+    .banner-bg .col{
+        height: 320px;
+    }
+    .post-title-main{
+        width: 590px;
+        height: 140px;
+    }
+    .slider{
+        width: 100%;
+        height: 350px;
+        object-fit: contain;
+    }
+    .slider .picture{
+        width:100%;
+        height: 350px;
+        object-fit: contain;
+    }
+    .content-slider:hover .btn-auto #prev{
+        display:block;
+        position: absolute;
+        top: -100px;
+        left: 20px;
+    }
+    .content-slider:hover .btn-auto #next{
+        display:block;
+        position: absolute;
+        top: -100px;
+        left: 555px;
+    }
+    .btn-auto ul{
+        position: absolute;
+        display: flex;
+        top: 15px;
+        left: 250px;
+    }
+    
+    .title-wrapper{
+        font-size: 85%;
+    }
+    .price-wrapper{
+        font-size: 90%;
+        font-weight: 700;
+    }
+    .price-wrapper .sale-off{
+        font-size: 85%;
+        font-weight:100;
+    }
+    
+    .banner-bg .col >a{
+        position: relative;
+        left: 60px;
+    }
+    .banner-bg .col >a{
+        font-size: 90%;
+        padding: 4px 5px;
+    }
+    .large-text{
+        font-size: 180%;
+    }
+    .small-text{
+        font-size: 130%;
+    }
+    .section-title .title .title-main{
+        width: 360px;
+    }
+    .section-title-news .title .title-main{
+        width: 200px;
+    }
+    
+    .onSale{
+        position: relative;
+        width: 40px;
+        height: 40px;
+        /* top: -20px; */
+        left: -7px;
+    }
+    .footer-wrapper .col span,
+    .footer-wrapper .info span{
+        width:200px;
+    }
+    .form{
+        position: absolute;
+        top: 14%;
+        left: 13%;
+    }
+
+    .navigation{
+        display: block;
+        margin-left: -20px;
+    }
+    
+    .button{
+        position: absolute;
+        top: 5px;
+        left:8%;
+    }
+    .navigation__nav{
+        position: absolute;
+        top: 0px;
+        left: 60px;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 839px) {
+    .wide {
+        width: 700px;
+    }
+    .logo{
+        position: absolute;
+        left: 250px;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .search{
+        position: absolute;
+        left: 450px;
+    }
+    .nav-cart{
+        position: absolute;
+        right: 5px;
+        width: 50px
+    }
+    .nav-cart .text{
+        display: none;
+    }
+    .nav-cart .cart-list{
+        position: absolute;
+        left: -210px;
+    }
+    .account{
+        position: absolute;
+        right: 0px;
+    }
+    .banner-bg .col{
+        height: 370px;
+    }
+    .slider{
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+    }
+    .slider .picture{
+         width:100%;
+         height: 350px;
+         object-fit: cover;
+    }
+    .content-slider:hover .btn-auto #prev{
+        display:block;
+        position: absolute;
+        top: -70px;
+        left: 20px;
+    }
+    .content-slider:hover .btn-auto #next{
+        display:block;
+        position: absolute;
+        top: -70px;
+        left: 660px;
+    }
+    .btn-auto ul{
+        position: absolute;
+        display: flex;
+        top: 60px;
+        left: 290px;
+    }
+    .title-wrapper{
+        font-size: 85%;
+    }
+    .price-wrapper{
+        font-size: 90%;
+        font-weight: 700;
+    }
+    .price-wrapper .sale-off{
+        font-size: 85%;
+        font-weight:100;
+    }
+    .row-banner .col >a{
+        position: relative;
+        left: 130px;
+        }
+    .banner-bg .col >a{
+        position: relative;
+        left: 80px;
+    }
+    .row-banner .col >a,
+    .banner-bg .col >a{
+        font-size: 90%;
+        padding: 4px 5px;
+    }
+    .large-text{
+        font-size: 200%;
+    }
+    .small-text{
+        font-size: 140%;
+    }
+    .section-title .title .title-main{
+        width: 300px;
+    }
+    .section-title-news .title .title-main{
+        width: 160px;
+    }
+    .new-pt-3{
+        display: none;
+    }
+    .post-title-main{
+        width: 342px;
+        height: 140px;
+    }
+    .post-title-large b{
+        position: absolute;
+        top: 70px;
+    }
+    .footer-wrapper .col span,
+    .footer-wrapper .info span{
+        width:200px;
+    }
+    .popup-content{
+        position: relative;
+        width: 350px;
+        height: 35px;
+        top: 35%;
+        left: 200px;
+        color: aliceblue;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+    .popup .popup-content input{
+        font-size: 20px;
+        width: 350px;
+        padding-left: 26px;
+        padding-top: 18px;
+    }
+    .popup-close{
+        position: absolute;
+        top: -150px;
+        right: 0px;
+    }
+    .form{
+        position: absolute;
+        top: 14%;
+        left: 20%;
+    }
+    .navigation{
+        display: block;
+    }
+    
+    .navigation__nav{
+        position: absolute;
+        top: 0px;
+        left: 50px;
+    }
+    .button{
+        position: absolute;
+        top: 5px;
+        left:8%;
+    }
+}
+
+/* Tablet - PC low resolution */
+@media (min-width: 840px) and (max-width: 900px) {
+    .wide {
+        width: 700px;
+    }
+    .logo{
+        position: absolute;
+        left: 250px;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .search{
+        display: none;
+        position: absolute;
+        left: 450px;
+    }
+    .nav-cart{
+        position: absolute;
+        right: 5px;
+        width: 50px
+    }
+    .nav-cart .text{
+        display: none;
+    }
+    .nav-cart .cart-list{
+        position: absolute;
+        left: -210px;
+    }
+    .account{
+        position: absolute;
+        right: 0px;
+    }
+    .banner-bg .col{
+        height: 370px;
+    }
+    .slider{
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+    }
+    .slider .picture{
+         width:100%;
+         height: 350px;
+         object-fit: cover;
+    }
+    .content-slider:hover .btn-auto #prev{
+        display:block;
+        position: absolute;
+        top: -70px;
+        left: 20px;
+    }
+    .content-slider:hover .btn-auto #next{
+        display:block;
+        position: absolute;
+        top: -70px;
+        left: 660px;
+    }
+    .btn-auto ul{
+        position: absolute;
+        display: flex;
+        top: 60px;
+        left: 290px;
+    }
+    .title-wrapper{
+        font-size: 85%;
+    }
+    .price-wrapper{
+        font-size: 90%;
+        font-weight: 700;
+    }
+    .price-wrapper .sale-off{
+        font-size: 85%;
+        font-weight:100;
+    }
+    .row-banner .col >a{
+        position: relative;
+        left: 130px;
+        }
+    .banner-bg .col >a{
+        position: relative;
+        left: 80px;
+    }
+    .row-banner .col >a,
+    .banner-bg .col >a{
+        font-size: 90%;
+        padding: 4px 5px;
+    }
+    .large-text{
+        font-size: 200%;
+    }
+    .small-text{
+        font-size: 140%;
+    }
+    .section-title .title .title-main{
+        width: 300px;
+    }
+    .section-title-news .title .title-main{
+        width: 160px;
+    }
+    .new-pt-3{
+        display: none;
+    }
+    .post-title-main{
+        width: 342px;
+        height: 140px;
+    }
+    .post-title-large b{
+        position: absolute;
+        top: 70px;
+    }
+    .footer-wrapper .col span,
+    .footer-wrapper .info span{
+        width:200px;
+    }
+    .popup-content{
+        position: relative;
+        width: 350px;
+        height: 15px;
+        top: 35%;
+        left: 0%;
+        color: aliceblue;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+    .popup .popup-content input{
+        font-size: 20px;
+        width: 350px;
+        padding-left: 26px;
+        padding-top: 18px;
+    }
+    .form{
+        position: absolute;
+        top: 14%;
+        left: 20%;
+    }
+    .popup-close{
+        position: absolute;
+        top: -150px;
+        right: 0px;
+    }
+    .navigation{
+        display: block;
+    }
+    
+    .navigation__nav{
+        position: absolute;
+        top: 0px;
+        left: 85px;
+    }
+    .button{
+        position: absolute;
+        top: 5px;
+        left:10%;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1023px) {
+    .wide {
+        width: 850px;
+    }
+    .logo{
+        position: absolute;
+        left: 20px;
+    }
+    .nav-bar{
+        position: absolute;
+        left: 200px;
+    }
+    .search{
+        position: absolute;
+        left: 215px;
+    }
+    .nav-cart{
+        position: absolute;
+        right: -70px;
+        /* width: 50px */
+    }
+    .account{
+        position: absolute;
+        right: 0px;
+    }
+    .nav-cart .text{
+        display: none;
+    }
+    .nav-cart .cart-list{
+        position: absolute;
+        left: -210px;
+    }
+    .slider{
+        width: 100%;
+        height: 400px;
+        /* margin-left: 0px; */
+    }
+    .slider .picture{
+         width:100%;
+        height: 400px;
+    }
+    .content-slider:hover .btn-auto #prev{
+        display:block;
+        position: absolute;
+        top: -20px;
+        left: 20px;
+    }
+    .content-slider:hover .btn-auto #next{
+        display:block;
+        position: absolute;
+        top: -20px;
+        left: 810px;
+    }
+    .btn-auto ul{
+        position: absolute;
+        display: flex;
+        top: 120px;
+        left: 390px;
+    }
+    .banner-bg .col{
+        height: 450px;
+    }
+
+    .row-banner .col >a{
+        position: relative;
+        left: 150px;
+        }
+    .banner-bg .col >a{
+        position: relative;
+        left: 100px;
+    }
+    .row-banner .col >a,
+    .banner-bg .col >a{
+        padding: 4px 5px;
+    }
+    .large-text{
+        font-size: 200%;
+        font-weight:700;
+        font-style:oblique;
+        letter-spacing: 3px;
+    }
+    .small-text{
+        font-size: 140%;
+    }
+    .section-title .title .title-main{
+        width: 250px;
+    }
+    .section-title-news .title .title-main{
+        width: 140px;
+    }
+    .post-title-main{
+        width: 417px;
+        height: 140px;
+    }
+    .post-title-large b{
+        position: absolute;
+        top: 70px;
+    }
+
+    .footer-wrapper .col span,
+    .footer-wrapper .info span{
+        width:250px;
+    }
+    .popup-content{
+        position: absolute;
+        width: 500px;
+        height: 55px;
+        top: 35%;
+        left: 10%;
+        color: aliceblue;
+    }
+    .popup .popup-content input{
+        font-size: 25px;
+        width: 500px;
+        padding-left: 26px;
+        padding-top: 18px;
+    }
+    .popup-close{
+        position: absolute;
+        top: -150px;
+        right: -80px;
+    }
+}
+
+/* > PC low resolution */
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .wide {
+        width: 1000px;
+    }
+    .nav-bar{
+        position: absolute;
+        left: 200px;
+    }
+    .search{
+        position: absolute;
+        left: 200px;
+    }
+    .content-slider:hover .btn-auto #prev{
+        display:block;
+        position: absolute;
+        left: 20px;
+    }
+    .content-slider:hover .btn-auto #next{
+        display:block;
+        position: absolute;
+        left: 970px;
+    }
+    .slider{
+        width: 1024px;
+    }
+   
+    .btn-auto ul{
+        position: absolute;
+        display: flex;
+        top: 200px;
+        left: 480px;
+    }
+    .row-banner .col >a{
+    position: relative;
+    left: 190px;
+    }
+
+    .banner-bg .col{
+        height: 535px;
+    }
+    .post-title-main{
+        width: 488px;
+        height: 110px;
+    }
+
+    .footer-wrapper .col span,
+    .footer-wrapper .info span{
+        width:300px;
+    }
+    .popup-close{
+        position: absolute;
+        top: -150px;
+        right: -180px;
+    }
+    .popup-content{
+        position: absolute;
+        width: 500px;
+        height: 55px;
+        border-radius: 3rem;
+        line-height: 50px;
+        color: aliceblue;
+    }
+}

@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/icon.jpg" type="image/png" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/queries.css">
+    <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <title>The Sneaker House</title>
+</head>
+
+<body>
+    <div class="main">
+
+        <!-- header -->
+        <header>
+            <a href="./61HT.html"><img class="logo" src="./images/Logo-TSH-240x90.png" alt="logo"></a>
+            <ul class="nav-bar">
+                <li><a href="./element/sneaker.html">Sneaker<i class="fa fa-angle-down"></i></a>
+                    <ul class="sub-nav nav">
+                        <li>
+                            <ul>
+                                <li><a href="./element/adidas.html">ADIDAS</a></li>
+                                <li><a href="#">PUMA</a></li>
+                                <li><a href="./element/nike.html">NIKE</a></li>
+                                <li><a href="#">VANS</a></li>
+                                <li><a href="#">AIR MAX</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="./element/adidas.html"> COLLECTIONS</a></li>
+                                <li><a href="#">ULTRA BOOST</a></li>
+                                <li><a href="./element/nike.html">STAN SMITH</a></li>
+                                <li><a href="#">SUPERSTAR</a></li>
+                                <li><a href="#">NMD</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="./element/accessories.html">accessories<i class="fa fa-angle-down"></i></a>
+                    <ul class="sub-nav nav-2">
+                        <li>
+                            <ul>
+                                <li><a href="#">VỚ</a></li>
+                                <li><a href="#">NÓN</a></li>
+                                <li><a href="#">PHỤ KIỆN</a></li>
+                                <li><a href="#">DÉP</a></li>
+                                <li><a href="#">BALO</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="#">TÚI XÁCH</a></li>
+                                <li><a href="#">YAMAMOTO</a></li>
+                                <li><a href="#">NEW BALANCE</a></li>
+                                <li><a href="#">CHÍNH HÃNG</a></li>
+                                <li><a href="#">FILA</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="#">CHÍNH HÃNG</a></li>
+                                <li><a href="#">YOHJI</a></li>
+                                <li><a href="#">ADIDAS</a></li>
+                                <li><a href="#">PHỤ KIỆN</a></li>
+                                <li><a href="#">YAMAMOTO</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="./element/Clothing.html">clothing<i class="fa fa-angle-down"></i></a>
+                    <ul class="sub-nav nav-3">
+                        <li>
+                            <ul>
+                                <li><a href="#">ÁO KHOÁC</a></li>
+                                <li><a href="#">ÁO THUN</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="./element/sale-off.html">sale off</a></li>
+                <li><a href="./element/lienhe.html">LIÊN HỆ</a></li>
+            </ul>
+            <a href="#popup" class="search" id="search"><i class="fa fa-search"></i></a>
+
+            <!-- giỏ hàng -->
+            <div class="nav-cart">
+                <a href="./element/giohang.html" class="cart">
+                    <span class="text">Giỏ Hàng</span>
+                    <span class="cart-icon">6</span>
+                </a>
+                <!-- khi chưa có sản phẩm -->
+                <!-- <div class="non-cart"><p>Chưa Có Sản Phẩm Trong Giỏ Hàng</p></div> -->
+
+                <!-- đã có  sản phẩm  -->
+                <div class="cart-list">
+                    <div class="list-product">
+                        <div class="mini-cart">
+                            <a href="./element/product1.html"><img src="./images/ULTRABOOST-20-SHOES-10-600x600.jpg"
+                                    alt=""></a>
+                            <span class="text-large">Ultra Boost 20 x ISS NASA</span>
+                            <span class="text-small">3,999,000₫</span>
+                            <span class="rules"></span>
+                            <span class="remove">&times;</span>
+                        </div>
+                        <div class="mini-cart">
+                            <a href="#"><img src="./images/didas-Ultra-Boost-DNA-Multi-Color-5-600x600.jpg" alt=""></a>
+                            <span class="text-large">Ultra Boost DNA</span>
+                            <span class="text-small">1,999,000₫</span>
+                            <span class="rules"></span>
+                            <span class="remove">&times;</span>
+                        </div>
+                        <div class="mini-cart">
+                            <a href="#"><img src="./images/giay-nike-air-zoom-mariah-1-600x600.jpg" alt=""></a>
+                            <span class="text-large">Nike Air Jordan 1 Mid “South Beach”</span>
+                            <span class="text-small">4,999,000₫</span>
+                            <span class="rules"></span>
+                            <span class="remove">&times;</span>
+                        </div>
+                        <div class="mini-cart">
+                            <a href="#"> <img src="./images/FW6375-SL-7600-3-600x600.jpg" alt=""></a>
+                            <span class="text-large">ADIDAS SL 76000</span>
+                            <span class="text-small">1,499,000₫</span>
+                            <span class="rules"></span>
+                            <span class="remove">&times;</span>
+                        </div>
+                        <div class="mini-cart">
+                            <a href="#"> <img src="./images/NMD_C2-SHOES-600x600.jpg" alt=""></a>
+                            <span class="text-large">NMD C2 Shoes</span>
+                            <span class="text-small">2,499,000₫</span>
+                            <span class="rules"></span>
+                            <span class="remove">&times;</span>
+                        </div>
+                    </div>
+                    <button class="view-cart"><a href="./element/giohang.html">XEM GIỎ HÀNG</a></button>
+                    <button class="bill-product"><a href="#">THANH TOÁN</a></button>
+                </div>
+            </div>
+
+            <!-- button menu -->
+
+            <div class="navigation">
+                <input type="checkbox" class="checkbox" id="navi-toggle">
+                <label for="navi-toggle" class="button">
+                    <span class="icon">&nbsp;</span>
+                </label>
+                <div class="navigation__nav">
+                    <ul class="list">
+                        <li class="navigation__item sch">
+                            <div>
+                                <span>
+                                    <input type="text" placeholder="Tìm tên, mã sản phẩm tại đây">
+                                    <a><i class="fa fa-search" id="fa-search"></i></a>
+                                </span>
+                            </div>
+                        </li>
+                        <li class="navigation__item"><a href="#" class="navigation__link">sneaker</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link">ACCESSORIES</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link">CLOTHING</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link">SALE OFF</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link">LIÊN HỆ</a></li>
+                    </ul>
+                    <button class="view-cart"><a href="#">GỌI HOTLINE</a></button>
+                    <button class="bill-product"><a href="#">GỬI TIN NHẮN</a></button>
+                </div>
+            </div>
+
+            <!-- tạo tài khoản -->
+            <div class="account">
+                <div class="account-form">
+                    <div>
+                        <h3 class="heading">Đăng nhập/ Đăng ký</h3>
+                        <div class="sign-in">
+                            <button><a href="#" id="sign-in">Đăng nhập</a></button>
+                            <button><a href="#">Tạo tài khoản</a></button>
+                            <button><i class="fa fa-facebook"></i>
+                                <p>Đăng nhập bằng facebook</p>
+                            </button>
+                            <button><i class="fa fa-google-plus"></i>
+                                <p>Đăng nhập bằng google</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- phần content -->
+        <div class="content">
+            <div class="content-slider grid wide">
+                <div class=" row">
+                    <div>
+                        <div class="slider">
+                            <img class="picture" id="first" src="./images/header4.png" alt="picture">
+                            <img class="picture" src="./images/header1.png" alt="picture">
+                            <img class="picture" src="./images/header2.png" alt="picture">
+                            <img class="picture" src="./images/header3.png" alt="picture">
+                            <img class="picture" src="./images/header4.png" alt="picture">
+                            <img class="picture" id="last" src="./images/header1.png" alt="picture">
+                        </div>
+                        <div class="btn-auto">
+                            <button class="btn" id="next"><i class="fa fa-chevron-right"></i></button>
+                            <button class="btn" id="prev"><i class="fa fa-chevron-left"></i></button>
+                            <ul>
+                                <li class="option" option-index='0'></li>
+                                <li class="option" option-index='1'></li>
+                                <li class="option" option-index='2'></li>
+                                <li class="option" option-index='3'></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="banner">
+                <div class="row-banner  grid wide">
+                    <div class="row">
+                        <div class="col l-6 m-6">
+                            <img class="img" src="./images/adidas.png" alt="image">
+                            <a href="./element/adidas.html"><span>shop now</span></a>
+                        </div>
+
+                        <div class="col l-6 m-6">
+                            <img class="img" src="./images/nike.png" alt="image">
+                            <a href="./element/nike.html"><span>shop now</span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="banner-bg grid wide">
+                    <div class="row no-gutters">
+                        <div class="col l-4 m-4 c-12 xm-4 product">
+                            <img class="img" src="./images/puma.jpg" alt="">
+                            <div class="text-banner">
+                                <div class="small-text">new arrivals</div>
+                                <div class="large-text"> PUMA</div>
+                            </div>
+                            <a href="#"><span>shop now</span></a>
+                        </div>
+                        <div class="col l-4 m-4 c-12 xm-4 product">
+                            <img class="img" src="./images/van.jpg" alt="">
+                            <div class="text-banner text-1">
+                                <div class="small-text">new arrivals</div>
+                                <div class="large-text"> VANS</div>
+                            </div>
+                            <a href="#"><span>shop now</span></a>
+                        </div>
+                        <div class="col l-4 m-4 c-12 xm-4 product">
+                            <img class="img" src="./images/aiRmax.jpg" alt="">
+                            <div class="text-banner text-2">
+                                <div class="small-text">new arrivals</div>
+                                <div class="large-text"> AIR MAX</div>
+                            </div>
+                            <a href="#"><span>shop now</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- new product -->
+            <div class="new-pt grid wide">
+                <div class="section-title">
+                    <h3 class="title">
+                        <b></b>
+                        <span class="title-main">Sản Phầm Mới</span>
+                        <b></b>
+                    </h3>
+                </div>
+                <div class="row">
+                    <div class="col l-4 m-4 xm-4 c-12 product">
+                        <div class="onSale">
+                            <span class="sale">-38%</span>
+                        </div>
+                        <a href="./element/product1.html"><img src="./images/ULTRABOOST-20-SHOES-10-600x600.jpg"
+                                alt="image"></a>
+                        <div class="text-box">
+                            <div class="title-wrapper">Ultra Boost 20 x ISS NASA</div>
+                            <div class="price-wrapper">
+                                <span class="sale-off">3,999,000₫ </span>
+                                2,499,000₫
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-4 xm-4 c-12 product">
+                        <div class="onSale">
+                            <span class="sale">-20%</span>
+                        </div>
+                        <a href="#"><img src="./images/Wmns-Air-Jordan-1-Mid-SE-_LetHerMan_-1-600x600.jpg"
+                                alt="image"></a>
+                        <div class="text-box">
+                            <div class="title-wrapper">Air Jordan 1 Mid SE “Let(Her)Man”</div>
+                            <div class="price-wrapper"><span class="sale-off">7,000,000đ</span>
+                                6,499,000₫</div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-4 xm-4 c-12 product">
+                        <div class="onSale">
+                            <span class="sale">-33%</span>
+                        </div>
+                        <a href="#"><img src="./images/ULTRABOOST-5.0-DNA-SHOES-8-600x600.jpg" alt="image"></a>
+                        <div class="text-box">
+                            <div class="title-wrapper">Ultra Boost DNA
+                            </div>
+                            <div class="price-wrapper"><span class="sale-off">2,999,000₫</span>
+                                1,999,000₫</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row new-pt-2">
+                    <div class="col l-4 m-4 xm-4 c-12 product">
+                        <div class="onSale">
+                            <span class="sale">-28%</span>
+                        </div>
+                        <a href="#"><img src="./images/Big-Ball-Chunky-32SHC2011-12-600x600.jpg" alt="image"></a>
+                        <div class="text-box">
+                            <div class="title-wrapper">Big Ball Chunky A LA Dodgers
+                            </div>
+                            <div class="price-wrapper">
+                                <span class="sale-off">2,290,000₫</span>
+                                1,650,000₫
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-4 xm-4 c-12 product">
+                        <div class="onSale">
+                            <span class="sale">-33%</span>
+                        </div>
+                        <a href="#"><img src="./images/didas-Ultra-Boost-DNA-Multi-Color-5-600x600.jpg" alt="image"></a>
+                        <div class="text-box">
+                            <div class="title-wrapper">Ultra Boost DNA
+                            </div>
+                            <div class="price-wrapper"><span class="sale-off">2,999,000₫ </span>
+                                1,999,000₫</div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-4 xm-4 c-12 product">
+                        <div class="onSale">
+                            <span class="sale">-20%</span>
+                        </div>
+                        <a href="#"><img src="./images/giay-nike-air-zoom-mariah-1-600x600.jpg" alt="image"></a>
+                        <div class="text-box">
+                            <div class="title-wrapper">Nike Air Jordan 1 Mid “South Beach”</div>
+                            <div class="price-wrapper"><span class="sale-off">4,999,000₫</span>
+                                5,800,000đ</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row new-pt-3">
+                    <div class="col l-4 m-4 xm-4 c-12 product">
+                        <div class="onSale">
+                            <span class="sale">-40%</span>
+                        </div>
+                        <a href="#"><img src="./images/FW6375-SL-7600-3-600x600.jpg" alt="image"></a>
+                        <div class="text-box">
+                            <div class="title-wrapper">ADIDAS SL 76000</div>
+                            <div class="price-wrapper">
+                                <span class="sale-off">2,499,000₫ </span>
+                                1,499,000₫
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-4 xm-4 c-12 product">
+                        <div class="onSale">
+                            <span class="sale">-38%</span>
+                        </div>
+                        <a href="#"><img src="./images/NMD_C2-SHOES-600x600.jpg" alt="image"></a>
+                        <div class="text-box">
+                            <div class="title-wrapper">NMD C2 Shoes</div>
+                            <div class="price-wrapper"><span class="sale-off">4,000,000₫ </span>
+                                2,499,000₫</div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-4 xm-4 c-12 product">
+                        <div class="onSale">
+                            <span class="sale">-13%</span>
+                        </div>
+                        <a href="#"><img src="./images/Nike-Air-Force-1-Pixel-1-1.jpg" alt="image"></a>
+                        <div class="text-box">
+                            <div class="title-wrapper">Nike Air Force 1 Pixel</div>
+                            <div class="price-wrapper"><span class="sale-off"> 3,999,000₫ </span>
+                                3,499,000₫</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- product sale -->
+            <div class="product-small grid wide">
+                <div class="section-title-main">
+                    <h3 class="title">
+                        <b></b>
+                        <span class="title-main">Sale</span>
+                        <b></b>
+                    </h3>
+                </div>
+                <div class="row">
+                    <div class="col l-3 m-3 xm-6 sm-6  c-12">
+                        <div class="onSale">
+                            <span class="sale">-45%</span>
+                        </div>
+                        <a href="#"><img src="./images/giay-adidas-eqt-cushion-adv-9-600x600.jpg" alt="image"></a>
+                        <div class="text-box">
+                            <div class="title-wrapper">EQT Cushion ADV</div>
+                            <div class="price-wrapper"><span class="sale-off">4,000,000₫ </span>
+                                2,199,000₫</div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-3 xm-6 sm-6 c-12">
+                        <div class="onSale">
+                            <span class="sale">-20%</span>
+                        </div>
+                        <a href="#"><img src="./images/CHECKERBOARD-SLIP-ON-600x600.jpg" alt="image"></a>
+                        <div class="text-box">
+                            <div class="title-wrapper">Checkerboard Slip-On-White
+                            </div>
+                            <div class="price-wrapper"><span class="sale-off"> 1,199,000₫</span>
+                                899,000₫</div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-3 xm-6 sm-6 c-12">
+                        <div class="onSale">
+                            <span class="sale">-10%</span>
+                        </div>
+                        <a href="#"><img src="./images/PLAYBALL-MONO-DENIM-NEW-YORK-YANKEES-32SHPM011-50U-7-600x600.jpg"
+                                alt="image"></a>
+                        <div class="text-box">
+                            <div class="title-wrapper">Playball Mono Denim New York Yankees</div>
+                            <div class="price-wrapper"><span class="sale-off">1,999,000₫ </span>
+                                1,799,000₫</div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-3 xm-6 sm-6 c-12">
+                        <div class="onSale">
+                            <span class="sale">-40%</span>
+                        </div>
+                        <a href="#"><img src="./images/SL-72-SHOES-2-600x600.jpg" alt="image"></a>
+                        <div class="text-box">
+                            <div class="title-wrapper">Adidas SL 72 Shoes</div>
+                            <div class="price-wrapper"><span class="sale-off">2,499,000₫</span>
+                                1,499,000₫</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-news grid wide">
+                <div class="section-title-news">
+                    <h3 class="title">
+                        <b></b>
+                        <span class="title-main">Tin Tức</span>
+                        <b></b>
+                    </h3>
+                </div>
+                <div class="row">
+                    <div class="col l-6 m-6 c-12">
+                        <a href="#"><img src="./images/Giày-Nike-Air-Jordan-1-5.jpg" alt="image">
+                            <div class="post-title-main">
+                                <div class="post-title-large">nike ari jordan 1 đôi giày không thể thiếu trong bộ sưu
+                                    tập mỗi tín đồ sneaker
+                                    <b></b>
+                                </div>
+                                <div class="post-title-small">nike ari jordan 1 được ra mắt 1985 là đôi giày ra đời sau
+                                    ...</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col l-6 m-6 c-12">
+                        <a href="#"><img src="./images/UltraBOOST-21-3.jpg" alt="image">
+                            <div class="post-title-main ultra">
+                                <div class="post-title-large">giày adidas ultra boost 2021 là một đôi giày như thế nào?
+                                    <b></b>
+                                </div>
+                                <div class="post-title-small">đê nhận xét về đôi giày adidas ultra boost 2020 hay còn
+                                    gọi là ultra
+                                    ...</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- phần tìm kiếm -->
+        <div class="popup" id="popup">
+            <div class="popup-content" id="pup-content">
+                <a href="#seach" class="popup-close" id="popup-close">&times;</a>
+                <span>
+                    <input name="search" type="text" placeholder="Tìm tên, mã sản phẩm tại đây" id="input">
+                    <a><i class="fa fa-search" id="fa-search"></i></a>
+                </span>
+            </div>
+        </div>
+
+        <!-- phần tạo tài khoản -->
+        <div class="form-element" id="form-element">
+            <form class="form" id="form">
+                <div class="heading-form">
+                    <a href="#" class="form-close">&times;</a>
+                    <h3 id="form-sign">Đăng nhập</h3>
+                    <h3 id="create">Tạo tài khoản</h3>
+                </div>
+                <div id="form-1">
+                    <div class="group">
+                        <div class="form__group">
+                            <div>
+                                <label for="full-name" class="form__label">Email</label>
+                                <input id="full-name" type="email" class="form__input" placeholder="Nhập Email"
+                                    required>
+                            </div>
+                            <span class="form-message"></span>
+                        </div>
+                        <div class="form__group">
+                            <div>
+                                <label for="password" class="form__label">Mật Khẩu</label>
+                                <input id="password" type="password" class="form__input" required>
+                            </div>
+                            <span class="form-message"></span>
+                        </div>
+                        <div class="mk">
+                            <p>Quê mật khẩu? Nhấn vào <a href="#">đây</a></p>
+                        </div>
+                        <div class="form__group button">
+                            <div>
+                                <button id="log-in">Đăng nhập</button>
+                                <div id="error-message"></div>
+                            </div>
+
+                            <button><i class="fa fa-facebook"></i>
+                                <p>Đăng nhập bằng facebook</p>
+                            </button>
+                            <button><i class="fa fa-google-plus" \></i>
+                                <p>Đăng nhập bằng google</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div id="form-2">
+                    <div class="form__group">
+                        <label for="name-1" class="form__label">Họ Tên</label>
+                        <input id="name-1" type="text" class="form__input" placeholder="Nhập Họ Và Tên" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="SĐT" class="form__label">SĐT</label>
+                        <input id="SĐT" type="text" class="form__input" placeholder="Nhập Số Điện Thoại" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="email" class="form__label">Email</label>
+                        <input id="email" name="email" type="text" placeholder="email" class="form-control">
+                    </div>
+
+                    <div class="form__group">
+                        <label for="password-1" class="form__label">Mật khẩu</label>
+                        <input id="password-1" name="password" type="password" placeholder="Nhập mật khẩu"
+                            class="form-control">
+                    </div>
+                    <div class="form__group radio">
+                        <span>Giới Tính</span>
+                        <div class="gender">
+                            <input type="radio" name="male" id="male">
+                            <label for="male" class="form-radio">Nam</label>
+                        </div>
+                        <div class="gender">
+                            <input type="radio" name="female" id="female">
+                            <label for="female" class="form-radio">Nữ</label>
+                        </div>
+                    </div>
+                    <div class="form__group date">
+                        <p>Ngày sinh</p>
+                        <span>ngày</span>
+                        <span>tháng</span>
+                        <span>năm</span>
+                    </div>
+                    <div class="form__group check">
+                        <input type="checkbox" name="check" id="form-check">
+                        <label for="form-check" class="checked"> Nhận các thông tin và chương trình khuyến mãi của shop
+                            qua email </label>
+                    </div>
+                    <div class="form__group button-2">
+                        <button>Tạo tài khoản</button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+
+        <!-- phần footer -->
+        <footer class="footer-wrapper grid wide">
+            <div class="row">
+                <div class="col l-4 m-4 xm-6 sm-6 c-12">
+                    <h4>THE SNEAKER HOUSE</h4>
+                    <span></span>
+                    <p>
+                        158/7 Nguyễn Công Trứ <br>
+                        P.Nguyễn Thái Bình <br>
+                        Quận 1, TP.HCM <br>
+                        Hotline: 0902 920 670
+                    </p>
+                    <div class="follow-icon">
+                        <a href="#" class="fb"><i class="fa fa-facebook-f"></i></a>
+                        <a href="#" class="ins"><i class="fa fa-instagram"></i></a>
+                        <a href="#" class="mail"><i class="fa fa-envelope-o"></i></a>
+                    </div>
+                </div>
+                <div class="col l-4 m-4 xm-6 sm-6 c-12 info">
+                    <h4>THÔNG TIN</h4>
+                    <span></span>
+                    <p>
+                        Chính sách đổi trả<br>
+                        Chính sách vận chuyển<br>
+                        Chính sách bảo hành<br>
+                        Hình thức thanh toán <br>
+                        Hướng dẫn mua hàng <br>
+                        Thông tin bảo mật
+                    </p>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="footer-left"> 2021 TheSneakerHouse bảo lưu mọi quyền</div>
+            </div>
+            <div class="payment">
+                <div><i class="fa fa-credit-card-alt" aria-hidden="true"></i></div>
+                <div><i class="fa fa-cc-visa" aria-hidden="true"></i></div>
+                <div><i class="fa fa-cc-mastercard" aria-hidden="true"></i></div>
+            </div>
+        </footer>
+    </div>
+    <script src="./js/slider.js"></script>
+    <script src="./js/sign-in.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./js/search.js"></script>
+
+    <script>
+
+    </script>
+</body>
+
+</html>
